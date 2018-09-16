@@ -2,16 +2,15 @@
 module.exports = function(sails) {
 	
 	const setup = require('./lib/viera.setup');
-	const exec = require('./lib/exec');
+	const init = require('./lib/viera.init');
 	const television = require('./lib/viera.js');
 
 	gladys.on('ready', function(){
-		
+		init()
 	});
  
     return {
 		setup: setup,
-		exec: exec,
 		television: television
     };
 };
