@@ -17,7 +17,6 @@ module.exports = function(sails) {
 			setup: setup,
 			exec: exec,
 			command: command,
-			install: install,
 			television: television,
 			uninstall: uninstall
     };
