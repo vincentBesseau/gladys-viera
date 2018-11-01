@@ -11,44 +11,44 @@
 
 Turn on the TV :
 ```
-gladys.modules.viera.television.switchState({deviceType:{device:DEVICE_ID},state:true});
+gladys.modules.viera.television.switchState({state:true, device:DEVICE_ID});
 ```
 Turn off the TV :
 ```
-gladys.modules.viera.television.switchState({deviceType:{device:DEVICE_ID},state:false});
+gladys.modules.viera.television.switchState({state:false, device:DEVICE_ID});
 ```
 Media control :
 ```
-gladys.modules.viera.television.pause({controlType:"pause",deviceType:{device:DEVICE_ID}});
-gladys.modules.viera.television.play({controlType:"play",deviceType:{device:DEVICE_ID}});
-gladys.modules.viera.television.stop({controlType:"stop",deviceType:{device:DEVICE_ID}});
-gladys.modules.viera.television.rewind({controlType:"rewind",deviceType:{device:DEVICE_ID}});
-gladys.modules.viera.television.fastForward({controlType:"fastForward",deviceType:{device:DEVICE_ID}});
-gladys.modules.viera.television.skipPrevious({controlType:"SKIP_PREV",deviceType:{device:DEVICE_ID}});
-gladys.modules.viera.television.skipNext({controlType:"SKIP_NEXT",deviceType:{device:DEVICE_ID}});
-gladys.modules.viera.television.openInfo({deviceType:{device:DEVICE_ID}});
-gladys.modules.viera.television.rec({deviceType:{device:DEVICE_ID}});
+gladys.modules.viera.television.pause({device:DEVICE_ID}});
+gladys.modules.viera.television.play({device:DEVICE_ID}});
+gladys.modules.viera.television.stop({device:DEVICE_ID}});
+gladys.modules.viera.television.rewind({device:DEVICE_ID}});
+gladys.modules.viera.television.fastForward({device:DEVICE_ID}});
+gladys.modules.viera.television.skipPrevious({device:DEVICE_ID}});
+gladys.modules.viera.television.skipNext({device:DEVICE_ID}});
+gladys.modules.viera.television.openInfo({device:DEVICE_ID}});
+gladys.modules.viera.television.rec({device:DEVICE_ID}});
 ```
 Volume control :
 ```
-gladys.modules.viera.television.volumeUp({deviceType:{device:DEVICE_ID}});
-gladys.modules.viera.television.volumeDown({deviceType:{device:DEVICE_ID}});
-gladys.modules.viera.television.setVolume({volume:15,deviceType:{device:DEVICE_ID}});
-gladys.modules.viera.television.getVolume({deviceType:{device:DEVICE_ID}});
-gladys.modules.viera.television.setMuted({status:true,deviceType:{device:DEVICE_ID}});
-gladys.modules.viera.television.setMuted({status:false,deviceType:{device:DEVICE_ID}});
+gladys.modules.viera.television.volumeUp({device:DEVICE_ID}});
+gladys.modules.viera.television.volumeDown({device:DEVICE_ID}});
+gladys.modules.viera.television.setVolume({volume:15, device:DEVICE_ID});
+gladys.modules.viera.television.getVolume({device:DEVICE_ID}});
+gladys.modules.viera.television.setMuted({status:true, device:DEVICE_ID});
+gladys.modules.viera.television.setMuted({status:false, device:DEVICE_ID});
 ```
 Change channel (1 to 9 only) :
 ```
-gladys.modules.viera.television.setChannel({channel:9,deviceType:{device:DEVICE_ID}});
+gladys.modules.viera.television.setChannel({channel:9, device:DEVICE_ID});
 ```
 Navigate on TV :
 ```
-gladys.modules.viera.television.pressKey({key:"OK",deviceType:{device:DEVICE_ID}});
-gladys.modules.viera.television.pressKey({key:"RIGHT",deviceType:{device:DEVICE_ID}});
-gladys.modules.viera.television.pressKey({key:"LEFT",deviceType:{device:DEVICE_ID}});
-gladys.modules.viera.television.pressKey({key:"UP",deviceType:{device:DEVICE_ID}});
-gladys.modules.viera.television.pressKey({key:"DOWN",deviceType:{device:DEVICE_ID}});
-gladys.modules.viera.television.pressKey({key:"BACK",deviceType:{device:DEVICE_ID}});
-gladys.modules.viera.television.openMenu({key:"BACK",deviceType:{device:DEVICE_ID}});
+gladys.modules.viera.television.pressKey({key:"OK", device:DEVICE_ID});
+gladys.modules.viera.television.pressKey({key:"RIGHT", device:DEVICE_ID});
+gladys.modules.viera.television.pressKey({key:"LEFT", device:DEVICE_ID});
+gladys.modules.viera.television.pressKey({key:"UP", device:DEVICE_ID});
+gladys.modules.viera.television.pressKey({key:"DOWN", device:DEVICE_ID});
+gladys.modules.viera.television.pressKey({key:"BACK", device:DEVICE_ID});
+gladys.modules.viera.television.openMenu({key:"BACK", device:DEVICE_ID});
 ```
