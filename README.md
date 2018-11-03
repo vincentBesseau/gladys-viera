@@ -19,22 +19,22 @@ gladys.modules.viera.television.switchState({state:false, device:DEVICE_ID});
 ```
 Media control :
 ```
-gladys.modules.viera.television.pause({device:DEVICE_ID}});
-gladys.modules.viera.television.play({device:DEVICE_ID}});
-gladys.modules.viera.television.stop({device:DEVICE_ID}});
-gladys.modules.viera.television.rewind({device:DEVICE_ID}});
-gladys.modules.viera.television.fastForward({device:DEVICE_ID}});
-gladys.modules.viera.television.skipPrevious({device:DEVICE_ID}});
-gladys.modules.viera.television.skipNext({device:DEVICE_ID}});
-gladys.modules.viera.television.openInfo({device:DEVICE_ID}});
-gladys.modules.viera.television.rec({device:DEVICE_ID}});
+gladys.modules.viera.television.pause({device:DEVICE_ID});
+gladys.modules.viera.television.play({device:DEVICE_ID});
+gladys.modules.viera.television.stop({device:DEVICE_ID});
+gladys.modules.viera.television.rewind({device:DEVICE_ID});
+gladys.modules.viera.television.fastForward({device:DEVICE_ID});
+gladys.modules.viera.television.skipPrevious({device:DEVICE_ID});
+gladys.modules.viera.television.skipNext({device:DEVICE_ID});
+gladys.modules.viera.television.openInfo({device:DEVICE_ID});
+gladys.modules.viera.television.rec({device:DEVICE_ID});
 ```
 Volume control :
 ```
-gladys.modules.viera.television.volumeUp({device:DEVICE_ID}});
-gladys.modules.viera.television.volumeDown({device:DEVICE_ID}});
+gladys.modules.viera.television.volumeUp({device:DEVICE_ID});
+gladys.modules.viera.television.volumeDown({device:DEVICE_ID});
 gladys.modules.viera.television.setVolume({volume:15, device:DEVICE_ID});
-gladys.modules.viera.television.getVolume({device:DEVICE_ID}});
+gladys.modules.viera.television.getVolume({device:DEVICE_ID});
 gladys.modules.viera.television.setMuted({status:true, device:DEVICE_ID});
 gladys.modules.viera.television.setMuted({status:false, device:DEVICE_ID});
 ```
@@ -50,5 +50,5 @@ gladys.modules.viera.television.pressKey({key:"LEFT", device:DEVICE_ID});
 gladys.modules.viera.television.pressKey({key:"UP", device:DEVICE_ID});
 gladys.modules.viera.television.pressKey({key:"DOWN", device:DEVICE_ID});
 gladys.modules.viera.television.pressKey({key:"BACK", device:DEVICE_ID});
-gladys.modules.viera.television.openMenu({key:"BACK", device:DEVICE_ID});
+gladys.modules.viera.television.openMenu({key:"MENU", device:DEVICE_ID});
 ```
