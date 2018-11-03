@@ -33,10 +33,10 @@ Volume control :
 ```
 gladys.modules.viera.television.volumeUp({device:DEVICE_ID});
 gladys.modules.viera.television.volumeDown({device:DEVICE_ID});
-gladys.modules.viera.television.setVolume({volume:15, device:DEVICE_ID});
-gladys.modules.viera.television.getVolume({device:DEVICE_ID});
 gladys.modules.viera.television.setMuted({status:true, device:DEVICE_ID});
 gladys.modules.viera.television.setMuted({status:false, device:DEVICE_ID});
+**/!\ Use only this next command without home cinema** 
+gladys.modules.viera.television.setVolume({volume:15, device:DEVICE_ID});
 ```
 Change channel (1 to 9 only) :
 ```
